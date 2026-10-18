@@ -5,9 +5,13 @@ a) Que a classe tenha vários construtores
 b) Que exista apenas um objeto da classe no programa
 c) Que a classe não tenha atributos
 d) Que a classe possa ser herdada
+
+letra (A)
+
 2.	2. Por que o construtor de um Singleton é private?
 
 Resposta: Para impedir que outras classes criem objetos com new.
+
 3. Complete a lacuna:
 java
 private ______ Configuracao instancia;
@@ -15,6 +19,8 @@ a) final
 b) public
 c) static
 d) void
+
+LETRA (C)
 
 4. O que acontece se alguém tentar escrever isto fora da classe?
 
@@ -28,6 +34,8 @@ a) new Configuracao()
 b) Configuracao.getInstancia()
 c) Configuracao.instancia
 d) this.getInstancia()
+
+LETRA (B)
 
 6.  Crie uma classe Singleton chamada ContadorVisitas que:
 -tenha um atributo total, começando em 0;
